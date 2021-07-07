@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+		<title>Temperatura / concusltas</title>
+	 <meta charset="UTF-8">
+	</head>
+<body>
+    <form action="ConexionFormu.php" method="POST">
+        
+        <h2>Registro de temperatura</h2>
+        <input type="text" name="sensor" placeholder="Sensor" class="input-48"> <br><br>
+        <input type="text" name="valor" placeholder="Temperatura (°C)" class="input-48"><br><br>
+        <input type="submit" value="Registrar" name="temp">
+    <br><br><br><br>
+    <h3>Consultas</h3>
+    <input type="text" name="nombresensor" placeholder="Nombre Sensor" class="input-48"><br><br>
+    <input type="submit" value="Promedio" name="prom"><br><br>
+    <input type="submit" value="Mayor valor" name="Vmayor"><br><br>
+    <input type="submit" value="Menor valor" name="Vmenor"><br><br>
+    <input type="submit" value="Max valor por sensor" name="Vmax"><br><br>
+    </form>
+</body>
